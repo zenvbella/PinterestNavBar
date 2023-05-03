@@ -99,7 +99,7 @@ button {
     margin-left: 1.5rem;
 }
 
-.links .navlink {
+.links.navlink {
     margin-left: 1rem;
     font-size: 0.875rem;
 }
@@ -107,7 +107,7 @@ button {
 .navlink.active {
     color: white;
     background-color: rgba(17, 24, 39, 1);
-    border-radius: 30%;
+    border-radius: 30px;
 }
 
 .main-content {
@@ -119,6 +119,14 @@ button {
 
 .right-content {
     padding-right: 0.5rem;
+}
+
+input {
+    background-color: #e4e4e4;
+    border: none;
+    border-radius: 20px;
+    width: 40rem;
+    padding: 0 0 0 20px;
 }
 
 @media (min-width: 640px) {
